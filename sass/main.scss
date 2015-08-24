@@ -1,0 +1,29 @@
+body {
+  background-image: url("http://newartcolorz.com/images/weather-wallpaper/kartandtinki1_weather-wallpaper_02.jpg");
+  background-repeat: no-repeat;
+}
+
+.col-md-6 {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  // padding-left: 5%;
+  color: #dcdcdc;
+  border-radius: 10px;
+  margin-right: 10%;
+  box-shadow: 13px 13px 26px 6px rgba(0,0,0,0.71);
+  margin-bottom: 8%;
+  width: 40%;
+}
+
+button {
+  color: black;
+}
+
+.weatherData {
+  margin-left: 2%;
+}
+
+#showSaved {
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
