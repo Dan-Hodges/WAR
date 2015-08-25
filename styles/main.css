@@ -1,25 +1,16 @@
-body {
-  background-image: url("http://newartcolorz.com/images/weather-wallpaper/kartandtinki1_weather-wallpaper_02.jpg");
-  background-repeat: no-repeat; }
+.content {
+  padding-top: 35px;
+  padding-left: 20px; }
 
-.col-md-6 {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  color: #dcdcdc;
-  border-radius: 10px;
-  margin-right: 10%;
-  box-shadow: 13px 13px 26px 6px rgba(0, 0, 0, 0.71);
-  margin-bottom: 8%;
-  width: 40%; }
+.review-container {
+  display: none; }
 
-button {
-  color: black; }
+.col-md-3 {
+  height: 350px;
+  width: 350px;
+  background: goldenrod; }
 
-.weatherData {
-  margin-left: 2%; }
-
-#showSaved {
-  margin-left: 2%;
-  margin-bottom: 2%; }
-
+.btn:focus {
+  outline: none;
+}
 /*# sourceMappingURL=main.css.map */
