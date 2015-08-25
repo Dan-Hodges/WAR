@@ -1,16 +1,51 @@
 .content {
   padding-top: 35px;
-  padding-left: 20px; }
+  padding-left: 20px; 
+}
 
 .review-container {
-  display: none; }
+  display: none; 
+}
 
 .col-md-3 {
   height: 350px;
   width: 350px;
-  background: goldenrod; }
+  background: goldenrod; 
+}
 
 .btn:focus {
   outline: none;
 }
-/*# sourceMappingURL=main.css.map */
+body {
+	background-image: url("http://www.vectorfree.com/media/vectors/gold-paisley-pattern-vector.jpg");
+	color: white;
+}
+h1 {
+	font-size: 3em;
+	padding-left: 40px;
+}
+
+.cardsArea {
+	float: left;
+	margin-left: 30px;
+}
+
+.pilesArea {
+	float: left;
+	margin-left: 30px;
+}
+.redGiant {
+	font-size: 6em;
+	color: red;
+}
+.hidden {
+	visibility: hidden;
+}
+
+.divOne {
+	float: left;
+}
+
+.divTwo {
+	float: left;
+}

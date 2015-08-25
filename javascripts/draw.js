@@ -76,7 +76,12 @@ define(function(require) {
           winnerCardTwo = cardImage1;
         }
         if (data.remaining < 2) {
-          $("#winner").html(" Winner");
+          if (score1 === score2){
+            $("#winner").html("Tie");
+          } else {
+            $("#winner").addClass("redGiant");
+            $("#winner").html(" Winner");
+          }
         }
 
         console.log("score1 :", score1);
