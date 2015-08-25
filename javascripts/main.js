@@ -15,8 +15,8 @@ requirejs.config({
   }
 });
 
-requirejs(["getDeck", "start", "draw"], 
-  function(getDeck, start, draw) {
+requirejs(["getDeck", "start", "draw", "addToPile"], 
+  function(getDeck, start, draw, addToPile) {
 
 
 });
