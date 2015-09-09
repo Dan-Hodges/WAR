@@ -1,6 +1,6 @@
 # NSS Project: War
 A rendition of the classic card game using the http://deckofcardsapi.com/ api for an NSS class project. 
-The game involves each player recieving a seperate deck of cards, and the winner is declared after 52 rounds.
+The game involves each player recieving a seperate deck of cards, and the winner is declared after 52 cards are gone.
 
 ###Technologies
 1.  Bootstrap
